@@ -22,16 +22,28 @@
 
 
 /* for dynamic_web/recipe/App.jsx */
-/* body {
+body {
   background-color: #FAFAF8;
   margin: 0;
   padding: 0;
   font-family: Inter, sans-serif;
+}
+
+/* .ingredients-list{
+  list-style-type: disc;
+  margin-bottom: 48px;
 } */
+/* 
+.ingredients-list > li {
+  color: #475467;
+  line-height: 28px;
+} */
+
+
 /* for dynamic_web/recipe/App.jsx */
 
 /* for dynamic_web/basicform/App.jsx */
-input[type="email"], input[type="password"] {
+/* input[type="email"], input[type="password"] {
   border-radius: 100px;
   border: 1px solid #0D9488;
   height: 2rem;
@@ -48,7 +60,7 @@ fieldset {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-}
+} */
 /* for dynamic_web/basicform/App.jsx */
 
 @theme {
