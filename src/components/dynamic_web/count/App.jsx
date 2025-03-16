@@ -1,5 +1,5 @@
 import React from "react";
-
+import Count from "./Count"
 export default function App() {
   const [count, setCount] = React.useState(0);
 
@@ -24,9 +24,7 @@ export default function App() {
         >
           –
         </button>
-        <h2 className="my-[0_10px] flex size-8 h-24 w-24 items-center justify-center rounded-full bg-white text-[#262626]">
-          {count}
-        </h2>
+        <Count number={count} />
         <button
           onClick={add}
           className="ml-[-20px] h-12 w-12 cursor-pointer rounded-full bg-[#737373] text-2xl text-[#D9D9D9] hover:bg-[#404040] hover:text-[#D9D9D9]"
