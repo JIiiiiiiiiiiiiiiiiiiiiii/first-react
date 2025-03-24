@@ -20,7 +20,7 @@ export default function IngredientsList(props) {
             </p>
           </div>
           <button
-            onClick={props.toggleRecipeShow}
+            onClick={props.getRecipe}
             className="cursor-pointer rounded-md bg-[#D17557] px-4 py-2.5 text-sm text-[#FAFAF8] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)]"
           >
             Get a recipe

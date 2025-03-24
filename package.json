@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/agents": "^0.0.5",
+    "@huggingface/hub": "^1.1.2",
+    "@huggingface/inference": "^3.6.1",
     "@tailwindcss/vite": "^4.0.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

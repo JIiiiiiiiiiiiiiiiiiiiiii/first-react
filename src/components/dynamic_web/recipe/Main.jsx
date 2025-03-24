@@ -1,14 +1,15 @@
 import React from "react";
 import IngredientsList from "./IngredientsList";
 import Recipe from "./Recipe";
+import { getRecipeFromChefClaude, getRecipeFromMistral } from "./ai";
 
 export default function Main() {
   const [ingredients, setIngredients] = React.useState([]);
   const [recipeShown, setRecipeShown] = React.useState(false);
   // const ingredientsList = ingredients.map((data) => <li className="text-[#475467] leading-7" key={data}>{data}</li>);
 
-  function toggleRecipeShow() {
-    setRecipeShown((prev) => !prev);
+  async function getRecipe() {
+    const recipeMarkdown = await getRecipeFromMistral(ingredients);
   }
 
   function addIngredient(formData) {

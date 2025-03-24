@@ -15,5 +15,9 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      import { InferenceClient } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@3.5.2/+esm';
+      import { createRepo, commit, deleteRepo, listFiles } from "https://cdn.jsdelivr.net/npm/@huggingface/hub@1.1.0/+esm";
+  </script>
   </body>
 </html>
