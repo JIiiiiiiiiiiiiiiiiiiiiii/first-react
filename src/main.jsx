@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./components/dynamic_web/recipe/App";
+import App from "./components/dynamic_web/meme/App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
